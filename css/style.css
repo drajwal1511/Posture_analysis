@@ -1,0 +1,35 @@
+h1{
+  text-align: center;
+}
+.form-group{
+  text-align: left;
+}
+#main{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.btn-outline-success{
+  float: right;
+}
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: black;
+    }
+    
+
+    .footer-text {
+        max-width: 600px;
+        text-align: center;
+        margin: auto;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .footer-text, .dg {
+        display: none;
+      }
+    }
